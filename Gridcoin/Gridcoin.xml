@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Gridcoin</Name>
+  <Name>GridcoinWalletGUI</Name>
   <Repository>sublivion/gridcoinwalletgui:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/sublivion/gridcoinwalletgui</Registry>
   <Network>bridge</Network>
