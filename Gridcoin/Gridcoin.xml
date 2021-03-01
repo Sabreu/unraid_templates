@@ -35,10 +35,10 @@ Pool crunching doesn't need any upfront investment, hence go with the pool if yo
 Switching between solo and pool is possible if you ever want to change.</Description>
   <Changes>
         [center][font size=5]Gridcoin Change Log[/font][/center]
-        [font size=4]2021.01.03[/font]
+        [font size=4]2021.03.01[/font]
         - Gridcoin 5.2.0.0-mandatory "Hilda" release 
         
-        [font size=4]2021.15.02[/font]
+        [font size=4]2021.02.15[/font]
         - Added web browser (firefox)
   </Changes>
   <Config Name="AppData Config Path" Target="/headless/.GridcoinResearch/" Default="" Mode="rw,slave" Description="/mnt/user/appdata/gridcoinresearch/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/gridcoinresearch/</Config>
