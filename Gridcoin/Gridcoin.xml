@@ -4,7 +4,6 @@
   <Repository>sublivion/gridcoinwalletgui:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/sublivion/gridcoinwalletgui</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/102050-support-gridcoinwalletgui/</Support>
@@ -22,14 +21,7 @@ Pool crunching doesn't need any upfront investment, hence go with the pool if yo
 Switching between solo and pool is possible if you ever want to change.</Overview>
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
-  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/Favicons/favicon-196x196.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1612099496</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
   <Description>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
 Remember to backup your wallet.dat and gridcoinresearch.conf regularly to a safe place.&#xD;
@@ -41,46 +33,13 @@ Keep in mind that solo crunching needs upfront investment as a chunk of Gridcoin
 Pool crunching doesn't need any upfront investment, hence go with the pool if you don't want to buy any Gridcoins.&#xD;
 &#xD;
 Switching between solo and pool is possible if you ever want to change.</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>6901</HostPort>
-        <ContainerPort>6901</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>5901</HostPort>
-        <ContainerPort>5901</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/gridcoinresearch/</HostDir>
-      <ContainerDir>/headless/.GridcoinResearch/</ContainerDir>
-      <Mode>rw,slave</Mode>
-    </Volume>
-    <Volume>
-      <HostDir/>
-      <ContainerDir>/var/lib/boinc-client/</ContainerDir>
-      <Mode>rw,slave</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>vncpassword</Value>
-      <Name>VNC_PW</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>1920x1080</Value>
-      <Name>VNC_RESOLUTION</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
-  <Labels/>
+  <Changes>
+        [center][font size=5]Gridcoin Change Log[/font][/center]
+        [font size=4]2021.01.03[/font]
+        - Gridcoin 5.2.0.0-mandatory "Hilda" release 
+        [font size=4]2021.15.02[/font]
+        - Added web browser (firefox)
+  </Changes>
   <Config Name="AppData Config Path" Target="/headless/.GridcoinResearch/" Default="" Mode="rw,slave" Description="/mnt/user/appdata/gridcoinresearch/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/gridcoinresearch/</Config>
   <Config Name="NOVNC PORT" Target="6901" Default="" Mode="tcp" Description="default: 6901" Type="Port" Display="always" Required="false" Mask="false">6901</Config>
   <Config Name="VNC PASSWORD" Target="VNC_PW" Default="" Mode="" Description="default: vncpassword" Type="Variable" Display="always" Required="false" Mask="false">vncpassword</Config>
