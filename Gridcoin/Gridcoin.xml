@@ -22,7 +22,7 @@ Switching between solo and pool is possible if you ever want to change.</Overvie
   <Category>Other:</Category>
   <Date>2021-01-30</Date>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
-  <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/Favicons/favicon-196x196.png</Icon>
+  <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/favicons/favicon-196x196.png</Icon>
   <Description>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
 Remember to backup your wallet.dat and gridcoinresearch.conf regularly to a safe place.&#xD;
