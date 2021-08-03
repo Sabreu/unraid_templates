@@ -20,7 +20,7 @@ Pool crunching doesn't need any upfront investment, hence go with the pool if yo
 &#xD;
 Switching between solo and pool is possible if you ever want to change.</Overview>
   <Category>Other:</Category>
-  <Date>2021-01-30</Date>
+  <Date>2021-08-03</Date>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
   <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/favicons/favicon-196x196.png</Icon>
   <Description>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
@@ -35,30 +35,29 @@ Pool crunching doesn't need any upfront investment, hence go with the pool if yo
 &#xD;
 Switching between solo and pool is possible if you ever want to change.</Description>
   <Changes>
-        [center][font size=5]Gridcoin Change Log[/font][/center]
-        [font size=4]2021.08.03[/font]
-        - Gridcoin 5.3.2.0-leisure release
+###2021.08.03
+- Gridcoin 5.3.2.0-leisure release
     
-        [font size=4]2021.04.05[/font]
-        - Gridcoin 5.3.1.0-leisure release
+###2021.04.05
+- Gridcoin 5.3.1.0-leisure release
     
-        [font size=4]2021.03.17[/font]
-        - Gridcoin 5.3.0.0-mandatory release
+###2021.03.17
+- Gridcoin 5.3.0.0-mandatory release
     
-        [font size=4]2021.03.15[/font]
-        - Gridcoin 5.2.2.0-leisure release
+###2021.03.15
+- Gridcoin 5.2.2.0-leisure release
     
-        [font size=4]2021.03.09[/font]
-        - Gridcoin 5.2.1.0-leisure release
+###2021.03.09
+- Gridcoin 5.2.1.0-leisure release
     
-        [font size=4]2021.03.01[/font]
-        - Gridcoin 5.2.0.0-mandatory "Hilda" release 
+###2021.03.01
+- Gridcoin 5.2.0.0-mandatory "Hilda" release 
         
-        [font size=4]2021.02.15[/font]
-        - Added web browser (firefox)
+###2021.02.15
+- Added web browser (firefox)
     
-        [font size=4]2021.01.30[/font]
-        - Initial release
+###2021.01.30
+- Initial release
   </Changes>
   <Config Name="AppData Config Path" Target="/headless/.GridcoinResearch/" Default="" Mode="rw,slave" Description="/mnt/user/appdata/gridcoinresearch/" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/gridcoinresearch/</Config>
   <Config Name="NOVNC PORT" Target="6901" Default="" Mode="tcp" Description="default: 6901" Type="Port" Display="always" Required="false" Mask="false">6901</Config>
