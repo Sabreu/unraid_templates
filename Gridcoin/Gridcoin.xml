@@ -11,14 +11,7 @@
   <Overview>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
 Remember to backup your wallet.dat and gridcoinresearch.conf regularly to a safe place.&#xD;
-Check the project page for more info about Gridcoin and how to setup crunching.&#xD;
-&#xD;
-You can install separate BOINC container to use with this.&#xD;
-Specify BOINC DATA DIR if you are going to solo crunch, with pool crunching it is not needed.&#xD;
-Keep in mind that solo crunching needs upfront investment as a chunk of Gridcoins needs to be owned in order to stake. &#xD;
-Pool crunching doesn't need any upfront investment, hence go with the pool if you don't want to buy any Gridcoins.&#xD;
-&#xD;
-Switching between solo and pool is possible if you ever want to change.</Overview>
+Check the project page for more info about Gridcoin and how to setup crunching.</Overview>
   <Category>Crypto:</Category>
   <Date>2021-08-03</Date>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
