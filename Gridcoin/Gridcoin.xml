@@ -24,6 +24,9 @@ Check the project page for more info about Gridcoin and how to setup crunching.&
 You can install separate BOINC container to use with this.&#xD;
 Specify BOINC DATA DIR if you are going to solo crunch, with pool crunching it is not needed</Description>
   <Changes>
+###2022.02.28
+- Gridcoin 5.3.3.0-leisure release    
+    
 ###2021.08.03
 - Gridcoin 5.3.2.0-leisure release
     
