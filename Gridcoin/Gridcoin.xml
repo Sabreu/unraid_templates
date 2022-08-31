@@ -7,19 +7,17 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/102050-support-gridcoinwalletgui/</Support>
-  <Project>https://gridcoin.us/</Project>
+  <Project>https://gridcoin.world/</Project>
   <Overview>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
-Remember to backup your wallet.dat and gridcoinresearch.conf regularly to a safe place.&#xD;
-Check the project page for more info about Gridcoin and how to setup crunching.</Overview>
+Check the project page for more info about Gridcoin </Overview>
   <Category>Crypto:</Category>
   <Date>2022-08-08</Date>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
   <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/favicons/favicon-196x196.png</Icon>
   <Description>Running Boinc? Get some Gridcoins from your Boinc work!&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
-Remember to backup your wallet.dat and gridcoinresearch.conf regularly to a safe place.&#xD;
-Check the project page for more info about Gridcoin and how to setup crunching.&#xD;
+Check the project page for more info about Gridcoin &#xD;
 &#xD;
 You can install separate BOINC container to use with this.&#xD;
 Specify BOINC DATA DIR if you are going to solo crunch, with pool crunching it is not needed</Description>
