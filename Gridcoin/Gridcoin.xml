@@ -23,7 +23,7 @@ You can install separate BOINC container to use with this.&#xD;
 Specify BOINC DATA DIR if you are going to solo crunch, with pool crunching it is not needed</Description>
   <Changes>
 ###2022.12.05
-- Gridcoin 5.4.1.0 leisure release + Debian 11 as base
+- Gridcoin 5.4.1.0 leisure release + Ubuntu 22.04 as base
     
 ###2022.08.08
 - Gridcoin 5.4.0.0-mandatory release     
