@@ -8,14 +8,14 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/102050-support-gridcoinwalletgui/</Support>
   <Project>https://gridcoin.world/</Project>
-  <Overview>Get some Gridcoins from Boinc & Folding@home work.&#xD;
+  <Overview>Get some Gridcoins from Boinc and Folding@home work.&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
 Check the project page for more info about Gridcoin </Overview>
   <Category>Crypto:</Category>
   <Date>2023-04-06</Date>
   <WebUI>http://[IP]:[PORT:6901]</WebUI>
   <Icon>https://raw.githubusercontent.com/gridcoin-community/Gridcoin-Site/master/assets/img/favicons/favicon-196x196.png</Icon>
-  <Description>Get some Gridcoins from Boinc & Folding@home work.&#xD;
+  <Description>Get some Gridcoins from Boinc and Folding@home work.&#xD;
 This docker contains Gridcoin Wallet with GUI running on Ubuntu. You can access the wallet via VNC and NoVNC.&#xD;
 Check the project page for more info about Gridcoin &#xD;
 &#xD;
